@@ -96,11 +96,7 @@ This model can further be improved if we introduced a wireless communication bet
 ![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/cfb8de0e-a4a6-4d15-8f1b-17ff6050241e)
 
 #### Light on, when a motion is detected
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/8f40ca43-8a76-42d9-b9f6-b9862a868cf6)
-
-![Watch the video](https://drive.google.com/file/d/1r8-fj2rbxxcf6KG6J3AlF_KpmDLSDMUE/view)
-<a href="https://drive.google.com/file/d/1r8-fj2rbxxcf6KG6J3AlF_KpmDLSDMUE/view">
-</a>
+(https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/8f40ca43-8a76-42d9-b9f6-b9862a868cf6)
 
 ## CONCLUSION
 
