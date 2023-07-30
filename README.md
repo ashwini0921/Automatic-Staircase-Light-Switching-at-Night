@@ -98,6 +98,8 @@ This model can further be improved if we introduced a wireless communication bet
 #### Light on, when a motion is detected
 ![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/8f40ca43-8a76-42d9-b9f6-b9862a868cf6)
 
+[![Watch the video](https://drive.google.com/file/d/1r8-fj2rbxxcf6KG6J3AlF_KpmDLSDMUE/view)
+
 ## CONCLUSION
 
 In this project circuit to switch on and off the staircase light at night when motion is detected is designed. The intension of this projectis to tackle the problem of unnecessary wastage of energy caused when light is kept on for whole night. The project can also be implemented as a step to automate building or home. The design is cost effective estimated INR 550 for a single model. The need of microcontroller is eliminated by the use of 555-timer and IC7408 AND gate, the microcontroller is quite expensive and only few features of microcontroller are utilized in this model. Hence, it’s not only saving energy but also money.
