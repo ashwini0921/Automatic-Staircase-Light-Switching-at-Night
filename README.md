@@ -16,25 +16,25 @@ HIGH then the monostable multivibrator switch on the relay for 2 min. After 2 mi
 The diagram in Fig 1 shows the design model. The power from main is step down and converted to 5 V DC the 5 V DC which is VCC pyroelectric sensor and photodiode send signal to 555 timer monostable multivibrator configuration which send the signal to Relay module as HIGH for 2 min if both pyroelectric sensor signal and photodiode signal is HIGH. The Relay switch on power to light used in staircase.
 
 #### CIRCUIT BLOCK DIAGRAM
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/43af6b8f-6026-4f65-b9fe-a74ad2b02f7e)
+![1](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/9559998d-ac37-434c-add7-c77628f7708d)
 
 ### MONOSTABLE CONFIGURATION
 
 #### The Circuit diagram of pyroelectric sensor signal and signal from photodiode connected to 555-timer in monostable multivibrator configuration.
 
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/add33f59-8db0-4db3-a9b3-6f9875fca44e)
+![2](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/8ea336fb-e9c9-4bd7-8f14-41c2fff1a811)
 
 The duration of on or Time Period is given by T=1.1R1C2 Resistor R1 is chosen as 100kΩ and Capacitor C2 chosen as 1000µF which gives T=1.1∙100kΩ ∙1000µF or 110 s. The transistor acts like a switch when output of AND gate is logically HIGH i.e. 5 V the voltage of trigger is nearly zero, thus creating negative voltage impulse and the timer begins.
 
 #### The LT spice Circuit of NE555 Circuit
 
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/0f6298e4-c412-4132-b196-f325a3e0abca)
+![3](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/6eb2e475-db73-440c-a7e3-bfc9ea7c9242)
 
 Since the NE555 model used in LT spice is different hence is not same when 100k Ω resistor is used. Instead 135k Ω resistor provides the correct output for LT spice model.
 
 #### LT spice Simulation Output:
 
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/ab797cda-28c6-43d2-b546-3946593553b2)
+![4](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/a18c1087-9789-438f-9d69-e83ba673542b)
 
 ### PHOTODIODE
 
@@ -51,7 +51,7 @@ Wavelength sensitivity: 940nm
 
 #### PHOTODIODE CIRCUIT
 
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/c65ba0ea-c76c-46a8-99a7-289adb843a37)
+![5](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/e367d34e-a94e-4ad9-9577-37c1f3914ef5)
 
 Since the Reverse Light current in range of nearly 25 µA
 therefore Resistance is chosen as 200k Ω to get output voltage
@@ -69,7 +69,7 @@ Pyroelectric sensor output is connected to one of the AND gate terminals. The se
 
 #### Pyroelectric motion sensor
 
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/28fcb2c1-f981-47f2-a35e-a24fc3691422)
+![6](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/be0a05b6-80ce-4c32-85e0-64a98a425e6d)
 
 ### RELAY MODULE
 
@@ -80,7 +80,8 @@ Operating time is 10 ms
 Release time is 5 ms
 The 5 V 1 channel relay single pole double throw (SPDT) is used as normally open relay. It is connected in series with the wire as a switch of light bulb. The disadvantage of this relay module is it may damage if it is used overtime. Since we are only using this module for few minutes it should work for long period of time.
 
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/7eea9384-4a6b-41ae-b46e-70a64cb1f4cd)
+![7](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/524e4b1b-09e5-4111-bdaf-65da1bc29695)
+
 #### 5 V 1 channel relay module to switch on and off light
 
 ## PROJECT IMPLEMENTATION IDEA
@@ -93,12 +94,16 @@ This model can further be improved if we introduced a wireless communication bet
 ### PROJECT IMAGE
 
 #### Light off, no motion detected.
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/cfb8de0e-a4a6-4d15-8f1b-17ff6050241e)
+
+![8](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/343703a9-f8cd-44c3-8984-cf571af1e3f3)
 
 #### Light on, when a motion is detected
-![image](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/8f40ca43-8a76-42d9-b9f6-b9862a868cf6)
 
-(https://drive.google.com/file/d/1r8-fj2rbxxcf6KG6J3AlF_KpmDLSDMUE/view)
+![9](https://github.com/ashwini0921/Automatic-Staircase-Light-Switching-at-Night/assets/111654188/e88bc33e-03ba-42a8-8c3f-b37f1dd4e42d)
+
+### VIDEO DEMONSTRATION:
+
+[![Watch the video](https://img.youtube.com/vi/e5Ap8xKhtOQ/hqdefault.jpg)](https://www.youtube.com/embed/e5Ap8xKhtOQ)
 
 ## CONCLUSION
 
